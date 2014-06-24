@@ -11,4 +11,4 @@ Executable uucdcompiler
   Install: false
   Path: tools
   MainIs: uucdCompiler.ml
-  BuildDepends: ucorelib, uucd
+  BuildDepends: ucorelib, xmlm, uucd

@@ -1,5 +1,5 @@
 # OASIS_START
-# DO NOT EDIT (digest: ab78cb311cb067ce0fbbb2ad6f5d631f)
+# DO NOT EDIT (digest: e58aff4c1d6e2ba8a3e2329a9aaa74c0)
 # Ignore VCS directories, you can use the same kind of rule outside
 # OASIS_START/STOP if you want to exclude directories that contains
 # useless stuff for the build process
@@ -16,6 +16,8 @@
 # Executable uucdcompiler
 "tools/uucdCompiler.byte": pkg_ucorelib
 "tools/uucdCompiler.byte": pkg_uucd
+"tools/uucdCompiler.byte": pkg_xmlm
 <tools/*.ml{,i}>: pkg_ucorelib
 <tools/*.ml{,i}>: pkg_uucd
+<tools/*.ml{,i}>: pkg_xmlm
 # OASIS_STOP

@@ -1,5 +1,5 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: d9a8f1c165b5b6a17bb41bdfa181bd4a) *)
+(* DO NOT EDIT (digest: 6f66b4d09ef833b950653d549efb7e57) *)
 
 This is the INSTALL file for the ualglib distribution.
 
@@ -14,6 +14,7 @@ In order to compile this package, you will need:
 * ocaml
 * findlib
 * ucorelib
+* xmlm
 * uucd
 
 Installing
