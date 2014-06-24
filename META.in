@@ -1,8 +1,8 @@
-name="camomile"
+name="ualglib"
 version="@VERSION@"
-description="Unicode library for ocaml"
-requires="bigarray"
+description="Unicode algorithm for ocaml"
+requires="ucorelib"
 
-archive(byte)="camomile.cma"
-archive(native)="camomile.cmxa"
+archive(byte)="ualglib.cma"
+archive(native)="ualglib.cmxa"
 
